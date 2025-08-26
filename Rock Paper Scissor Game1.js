@@ -97,9 +97,9 @@ function playGame(value1){
     
     document.querySelector('#first').innerHTML = `  ${result}`;
 
-    document.querySelector('#second').innerHTML = `you pick <image src = icons/${value1}.png class="png1">`;
+    document.querySelector('#second').innerHTML = `you pick <image src = ${value1}.png class="png1">`;
     
-    document.querySelector('#third').innerHTML = `the computer pick <image src = icons/${state1}.png class="png1">`;
+    document.querySelector('#third').innerHTML = `the computer pick <image src = ${state1}.png class="png1">`;
 
     
     function updateScore(){document.querySelector('#fourth').innerHTML = `|Win(${score.Win})| |Tie(${score.Tie})| |Lost(${score.Lost})|)`;}
@@ -143,5 +143,6 @@ function calculate(){
     document.querySelector('#showhere')
   .innerHTML = `Mkw ${here + 10}`;
    }
+
 
 }
