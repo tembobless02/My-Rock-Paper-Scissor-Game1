@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game1</title>
+    <link href="Rock Paper Scissor Game1.css" rel="stylesheet">
+    <script src="Rock Paper Scissor Game1.js"></script>
+</head>
+<body>
+    <div id="mainTitle1">
+        <h1 id="mainTitle">Rock Paper Scissor Game1</h1>
+
+    </div>
+
+    <button title="Rock Button" id="rock" onclick="  playGame('Rock');
+        "><img src="icons/Rock.png" class="png1" alt="Rock"></button>
+
+
+        <button title="Paper Button" id="paper" onclick=" playGame('Paper');
+         "><img src="icons/Paper.png" class="png1" alt="paper"></button>
+
+
+        <button title="Scissor Button" id="scissor" onclick=" playGame('Scissor'); "><img src="icons/Scissor.png" class="png1" alt="Scissor"></button>
+
+     <div id="display1">
+      <p id = "first" >PLAY!</p>
+      <p id = "second" ></p>
+      <p id = "third" ></p> 
+      <p id = "fourth" ></p>
+    </div>
+
+    <button title="Reset button" id="Reset" onclick=" resetFuction(); ">Reset</button>
+
+    <p>Subscribe Button</p>
+    <button id="subscribeButton"  onclick="subcribeButton();" class = 'subscribeButton'>SUBSCRIBE</button>
+
+    <p id="simpleCalculator">simpleCalculator</p>
+    <input onkeydown = 'key1(event);' id = 'here' placeholder="type numbers only"><button id="button1" onclick="calculate();">Calculate</button>
+    <p id="showhere"></p>
+
+    
+</body>  
+</html> 

@@ -1,0 +1,72 @@
+body{
+    padding: 20px;
+    margin: 0px;
+    background-color: rgba(2, 2, 2, 0.633);
+}
+
+#display{
+    height: 100px;
+}
+
+#mainTitle1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mainTitle{
+    
+    text-align: center;
+    background-color: yellow;
+    color: rgb(18, 19, 19);
+    box-shadow: 10px 10px 10px 5px ;
+    margin-bottom: 50px;
+}
+
+ #Reset{
+    background-color: rgba(165, 42, 42, 0.373);
+}
+#paper, #rock, #scissor{
+    margin: 5px;
+    background-color: rgba(65, 105, 225, 0.141);
+    border-radius: 50%;
+}
+
+.subscribeButton{
+    background-color: rgb(240, 244, 244);
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.subscribedButton{
+
+    background-color: black;
+    color: rgb(240, 244, 244);
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+
+#here{
+    padding: 10px;
+
+}
+#button1{
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+}
+.png1{
+    height: 50px;
+    width: 50px;
+    background-color: none;
+
+}
